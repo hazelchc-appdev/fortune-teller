@@ -5,9 +5,9 @@
 <p>Your lucky numbers for today are:</p>
 
 <ul>
-  <%= @array_of_numbers.each do |zebra| %>
+  <% @array_of_numbers.each do |zebra| %>
     <li>
-      <% zebra %>
+      <%= zebra %>
     </li>
   <% end %>
 </ul>
